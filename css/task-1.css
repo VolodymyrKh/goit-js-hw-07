@@ -1,0 +1,38 @@
+.category-container {
+  width: 440px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fff;
+}
+
+#categories {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  background: #f6f6fe;
+}
+
+.item:not(:last-child) {
+margin-bottom: 24px;
+}
+
+.item ul {
+  padding: 0;
+  list-style: none;
+}
+
+.item h2 {
+  margin: 0 0 16px;
+}
+
+.item ul li {
+  border: 1px solid #2E2F42;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}

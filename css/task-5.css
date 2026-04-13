@@ -1,0 +1,12 @@
+.widget {
+  padding: 100px 88px;
+}
+
+.widget p {
+  text-align: center;
+}
+
+.change-color {
+  display: block;
+  margin: 0 auto;
+}
